@@ -83,27 +83,71 @@ nav ul li a:hover {
 }
 
 .secondsection h1{
-    font-size: 1.9rem;
+  font-size: 1.9rem;
 }
 
 .secondsection .box{
-    background: white;
-    width: 80vw;
-    height: 2px;
-    margin: 56px 0;
-    display: flex;
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
 }
 
 .secondsection .vertical{
-    height: 93px;
-    width: 1px;
-    background-color: white;
-    margin: 0 100;
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100;
 }
 
 main hr{
-    border: 0;
-    background:rgb(164, 164, 240);
-    height: 1.2px;
-    margin: 60px 84px;
+  border: 0;
+  background:rgb(164, 164, 240);
+  height: 1.2px;
+  margin: 60px 84px;
 }
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills div, .projects div {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  background: #640fa5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1 1 calc(30% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+        

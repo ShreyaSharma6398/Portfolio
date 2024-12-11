@@ -18,10 +18,11 @@
         <div class="left">My portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#about me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </div>
       </nav>
@@ -39,21 +40,97 @@
           <img src="web.png" alt="" />
         </div>
       </section>
-      <hr>
+
+      <hr />
+
       <section class="secondsection">
-        <span class="text gray">What I have done so far</span>
-        <h1>Work Experience</h1>
-        <div class="box">
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
+        <div id="about me">
+          <h2>About Me</h2>
+          <p>
+            I am Shreya Sharma, a recent Master of Computer Application graduate
+            eager to begin my journey in the IT field. I have a passion for
+            building interactive and user-friendly applications and am always
+            ready to embrace new challenges in the world of technology.
+          </p>
         </div>
+
+        <hr />
+
+        <div id="skills">
+          <h2>Skills</h2>
+          <div class="skills">
+            <div>C++</div>
+            <div>Core Java</div>
+            <div>HTML & CSS</div>
+            <div>JavaScript</div>
+            <div>DBMS</div>
+            <div>React JS</div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="work experience">
+          <h2>Work Experience</h2>
+          <div>
+            <h3>Web Development Internship</h3>
+            <h5>Talk-A-Tive(Chat Application)</h5>
+            <p>
+              Technology Used: HTML, CSS, JavaScript, Node.js, Socket.IO.<br />Worked
+              on building and maintaining web applications during a one-month
+              industrial training. Developed a realtime chat application.
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="projects">
+          <h2>Projects</h2>
+          <div>
+            <h3>1. E-commerce Website Landing Page</h3>
+            <p>
+              Technology Used: HTML, CSS, JavaScript.<br />A responsive and
+              visually appealing landing page showcasing products. It is a
+              landing page of an e-commerce website, an online store where
+              customers can find products online.
+            </p>
+
+            <h3>2. Rock Paper Scissors</h3>
+            <p>
+              Technology Used: HTML, CSS, JavaScript.<br />It is a hand game
+              played between two people, in which each player simultaneously
+              forms one of three shapes.
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="contact">
+          <h2>Contact Me</h2>
+          <form class="contact-form">
+            <input type="text" placeholder="Shreya Sharma" required />
+            <input
+              type="email"
+              placeholder="sharmashreya6398@gmail.com"
+              required
+            />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <hr />
+
+        <footer>
+          <p>&copy; 2024 Shreya Sharma. All rights reserved.</p>
+        </footer>
       </section>
     </main>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
+
     <script>
       var typed = new Typed("#element", {
         strings: ["Web Developer", "Software Engineer"],
